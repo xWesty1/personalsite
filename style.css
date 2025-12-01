@@ -1,0 +1,152 @@
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --font-main: 'Courier New', Courier, monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 1rem;
+}
+
+.logo-placeholder {
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* border: 2px solid var(--text-color); */
+    /* padding: 0.5rem; */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+.journal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.journal-list li {
+    margin-bottom: 1rem;
+}
+
+.journal-list a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    gap: 2rem;
+}
+
+.journal-list a:hover {
+    text-decoration: underline;
+}
+
+.journal-list .date {
+    font-family: var(--font-main);
+    opacity: 0.8;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px dashed var(--text-color);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14.7rem;
+    margin: 2rem 0;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-info {
+    margin-bottom: 0.5rem;
+}
+
+.video-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.video-author {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.video-item video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 1px solid var(--text-color);
+    background-color: #000;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--text-color);
+    font-size: 0.8rem;
+}

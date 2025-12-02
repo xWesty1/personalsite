@@ -1,0 +1,5 @@
+{
+  "installCommand": "git lfs install && git lfs pull",
+  "buildCommand": "echo 'No build step needed'",
+  "outputDirectory": "."
+}

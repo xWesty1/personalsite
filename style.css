@@ -68,6 +68,15 @@ nav a.active {
     text-decoration: underline;
 }
 
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .journal-list {
     list-style: none;
     padding: 0;
@@ -95,7 +104,7 @@ nav a.active {
 }
 
 section {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 h1,
@@ -103,9 +112,12 @@ h2,
 h3 {
     font-weight: normal;
     text-transform: uppercase;
-    border-bottom: 1px dashed var(--text-color);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
     display: inline-block;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
 }
 
 .video-grid {
@@ -143,6 +155,13 @@ h3 {
     height: auto;
     border: 1px solid var(--text-color);
     background-color: #000;
+}
+
+.gear-info {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+    line-height: 1.8;
 }
 
 footer {

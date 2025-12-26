@@ -49,6 +49,11 @@ header {
     /* padding: 0.5rem; */
 }
 
+.logo-placeholder a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 nav ul {
     list-style: none;
     padding: 0;

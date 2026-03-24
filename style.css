@@ -118,7 +118,13 @@ section {
     margin-top: 0;
 }
 
-h1,
+h1 {
+    font-weight: normal;
+    text-transform: lowercase;
+    padding-bottom: 0rem;
+    display: inline-block;
+}
+
 h2,
 h3 {
     font-weight: normal;

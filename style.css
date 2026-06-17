@@ -189,8 +189,8 @@ footer {
 }
 
 .poem p {
-    white-space: nowrap;
-    overflow-x: auto;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
 }
 
 @media (max-width: 600px) {
@@ -218,5 +218,9 @@ footer {
     .video-grid {
         justify-content: center;
         column-gap: 1rem;
+    }
+
+    .poem p {
+        font-size: 0.85rem;
     }
 }
